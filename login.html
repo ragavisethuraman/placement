@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://www.climbsolutionsinfo.com/wp-content/uploads/2016/02/full-placement-background.png");
+        text-align: center;
+        
+        }
+        .primary{
+            border: none;
+            background-color: blue;
+            color: white;
+            width: 80px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div class="container " style="overflow: auto">
+         <h1 style="color:white; font-size: 45px; ">Login Form</h1>
+         <form action="LoginServlet" method="post">
+          <div class="form-group" name="userName">
+           <label for="uname" style="color:white; font-size: 25px;">User Name:</label> 
+           <input type="text" class="form-control" id="username" placeholder="User name"name="userName" required>
+          </div><br>
+          <div class="form-group" name="userPass">
+           <label for="uname"style="color:white; font-size: 25px;">Password:</label> 
+           <input type="password"class="form-control" id="password" placeholder="Password"name="userPassword" required>
+          </div><br>
+<input type="submit" value="Login"/><br><br>
+         <a href="website.html">Click here to go back to the web site</a>
+         </form>
+        </div>
+</body>
+</html>
